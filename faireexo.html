@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cours - IPG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="https://cdn.ckeditor.com/4.16.1/standard/ckeditor.js"></script>
+</head>
+<body>
+    <header>
+        <div class="row">
+            <!--Si le client n'est pas connecté -->
+            <h2 class="montitre col-sm-8">Format <span class="tourne">Plus</span> </h2>
+            <div class="btn-log col-sm-3">
+                <div class="row">
+                    <a href="#" class="btn-login">connexion</a>
+                    <a href="#" class="btn-register">Inscription</a>
+                </div>
+            </div>
+                <!-- <h2 class="montitre col-sm-5">Format <span class="tourne">Plus</span> </h2>
+                <ul class="menu col-sm-4">
+                <li><a href="#">Tableau de bord</a></li>
+                <li><a href="#">Cours</a></li>
+                <li><a href="#">Exercices</a></li>
+                <li><a href="#">Notes</a></li>
+            </ul>
+            <div class="profil col-sm-2">
+                <h5>Ahoua Elvis Ghislain</h5>
+            </div> -->
+        </div>
+    </header>
+    <div class="container">
+        <div class="formulaires">
+            <h3 class="titles text-center">Exercice : Programmation HMTL CSS</h3>
+            <p class="duree">Ce texte sera fermé le : <span>12 juin 2021</span></p>
+           <div class="row justify-content-center">
+               <div class="enonce col-sm-5">
+                    <h4 class="text-center">Enoncé de l'exercice</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+               </div>
+               <div class="reponse col-sm-5">
+                    <h4 class="text-center">Réponse</h4>
+                   <form action="">
+                        <textarea name="editor1" rows="20"></textarea>
+                       <button class="btn-login da" type="submit">Envoyer</button>
+                   </form>
+                </div>
+           </div>
+        </div>
+    </div>
+    <script>
+            CKEDITOR.replace( 'editor1' );
+    </script>
+</body>
+</html>
